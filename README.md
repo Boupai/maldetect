@@ -18,7 +18,7 @@ The algorithm is working to classify a cell as infected or uninfected. The algor
 5. Then create a folder for your new dataset(and name it), and create 3 more folders called, "test", "train", and "val".
 6. Then create more folders inside of them with each name of the category, for example for the infected pictures I named the folder Parasitized, and create a folder for every single category in your dataset, with a name that corresponds to the data inside of it.
 7. Create a labels.txt file in the folder with all the dataset, and list the catergories.
-8. You may then go to the docker using, make sure you are in the jetson-infrence
+8. You may then go to the docker using, make sure you are in the jetson-inference
    ```
    $./docker/run.sh
    ```
