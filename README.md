@@ -6,11 +6,11 @@
 
 ## The Algorithm
 
-The algorithm is working to classify a cell as infected or uninfected. The algorithm does this by being trained by many pictures of parasitized and uninfected pictures of cells, which is classified before by a human, so the computer can correctly classify the image. This whole process is done before putting in new 
+The algorithm is working to classify a cell as infected or uninfected. The algorithm does this by being trained by many pictures of parasitized and uninfected pictures of cells, which is classified before by a human, so the computer can correctly classify the image. This whole process is done before putting in new images in, so the computer can learn what malaria looks like, before making a decision.  There were only two options for the computer to chose as a cell either has malaria or does not.
 
 ## Running this project
 
-1. Add steps for running this project.
-2. Make sure to include any required libraries that need to be installed for your project to run.
+1. Install Python3 and setup the Jetson Infrence library to you system
+2. 
 
 [View a video explanation here](video link)
