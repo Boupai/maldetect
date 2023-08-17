@@ -33,10 +33,13 @@ The algorithm is working to classify a cell as infected or uninfected. The algor
    ```
   11. Exit the docker and make sure you are in jetson-inference/python/training/classification
 12. Set the NET and DATASET variables
-13. test an image
+    ```
+    $ NET=models/(file name)
+    $ DATASET=data/(file name)
+14. test an image
    ```  
-   $ model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/<Name of Category 1>/.jpg .jpg
+   $ model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/<Name of Category 1>/(name of image).jpg (what you want the output to be called).jpg
    ```
 14. See if it worked by finding the image you outputed.
 
-[Video explination](https://youtu.be/FEoWe28eWvs)
+[Video explanation](https://youtu.be/FEoWe28eWvs)
